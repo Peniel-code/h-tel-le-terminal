@@ -151,7 +151,9 @@ body{
   display:inline-block;padding:0.6rem 1rem;border-radius:10px;background:var(--accent);color:white;text-decoration:none;border:0;cursor:pointer;transition:var(--transition);
 }
 .btn:hover{transform:translateY(-3px)}
-.btn.ghost{background:transparent;color:var(--text);border:1px solid rgba(15,23,42,0.06)}
+.btn.ghost{
+  display:inline-block;padding:0.6rem 1rem;border-radius:10px;background:var(--accent);color:white;text-decoration:none;border:0;cursor:pointer;transition:var(--transition);
+}
 .btn.small{padding:0.35rem 0.6rem;font-size:0.9rem}
 .btn.wide{display:inline-block;width:100%;text-align:center}
 
